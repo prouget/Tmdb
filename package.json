@@ -1,0 +1,20 @@
+{
+  "name": "tmdb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "POM",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.65",
+    "electron": "^20.1.0"
+  },
+  "dependencies": {
+    "node-themoviedb": "^0.2.8"
+  }
+}
